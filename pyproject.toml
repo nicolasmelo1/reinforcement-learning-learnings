@@ -1,0 +1,14 @@
+[project]
+name = "reinforcement-learning-learnings"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gymnasium[box2d,classic-control]",
+    "matplotlib>=3.10.8",
+    "matplotlib-backend-kitty>=2.1.2",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+]
